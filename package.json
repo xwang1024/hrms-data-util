@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xwang1024/hrms-data-util#readme",
   "dependencies": {
+    "lodash": "^4.13.1",
     "mongoose": "^4.5.2",
     "mysql": "^2.11.1"
   }

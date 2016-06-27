@@ -58,12 +58,16 @@ exports = module.exports = function(mongo, mongoose) {
     workPositionLimit: { type: String, ref: "Option" }, // 在当前岗位任职年限
     homePhone: { type: String }, // 家庭电话
     contact: { type: String }, // 紧急联系人
-    _remove: { type: Boolean }
+    _remove: { type: Boolean },
+    _category: { type: Number },
+    _oldPersonId: { type: String }
   });
   employee.index({ name: 1 });
   employee.index({ idNum: 1 });
   employee.index({ company: 1 });
   employee.index({ department: 1 });
   employee.index({ _remove: 1 });
+  employee.index({ _tag: 1 });
+  employee.index({ _oldPersonId: 1 });
   mongo.model('Employee', employee);
 };
