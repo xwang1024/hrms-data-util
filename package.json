@@ -1,0 +1,23 @@
+{
+  "name": "hrms-data-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwang1024/hrms-data-util.git"
+  },
+  "author": "XWang1024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwang1024/hrms-data-util/issues"
+  },
+  "homepage": "https://github.com/xwang1024/hrms-data-util#readme",
+  "dependencies": {
+    "mongoose": "^4.5.2",
+    "mysql": "^2.11.1"
+  }
+}
